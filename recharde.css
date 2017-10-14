@@ -1,0 +1,104 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: '微软雅黑';
+	background: rgb(245,245,245);
+	text-align: center;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 100%;
+	height: 100%;
+}
+.content{
+	max-width: 40rem;
+	margin: 0 auto;
+}
+
+/*账户余额*/
+.balance{
+	/*text-align: center;*/
+	padding: 2rem 0;
+	background: #fff;
+	margin-bottom: 0.7rem;
+}
+.balance>p{
+	
+}
+#balance-num{
+	font-size: 42px;
+	color: rgb(255,82,136);
+}
+.p2{
+	font-size: 13px;
+	color: rgb(164,164,164);
+}
+
+/*支付宝微信图标*/
+.ico{
+	background: #fff;
+	padding: 2rem 1rem;
+	overflow: hidden;
+	margin-bottom: 0.7rem;
+}
+.ico .ico-ts{
+	margin: 0;
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.ico .ico-ts img{
+	width: 3.5rem;
+	height: auto;
+	margin-bottom: 0.3rem;
+}
+
+/*充值金额*/
+.sum{
+	width: 100%;
+	height: 10rem;
+	background: #fff;
+	margin-bottom: 0.7rem;
+	/*padding: 2rem 1rem;*/
+	overflow: hidden;
+	font-size: 16px;
+}
+.sum .tss{
+	width: 20%;
+	height: auto;
+	float: left;
+	border: 1px solid #dddddd;
+	margin: 2%;
+	padding: 2% 4%;
+	border-radius: 5rem;
+}
+.sum .tss .p3{
+	font-size: 14px;
+	color: rgb(164,164,164);
+}
+#zfbta1{
+	overflow: hidden;
+}
+#wxta2{
+	position: relative;
+    top: 0;
+    display: none;
+}
+
+/*帮助*/
+.help{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	text-align: left;
+	padding: 1rem 0.2rem;
+}
+.help .p4{
+	margin: 0.5rem;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>充值页面</title>
+	<link rel="stylesheet" type="text/css" href="recharde.css">
+</head>
+<body>
+	<div class="box">
+		<div class="content">
+			<div class="balance">
+				<p>账户余额 （钻石）</p>
+				<span id="balance-num">0</span>
+				<p class="p2">账单  ></p>
+			</div>
+			<div class="ico">
+				<div class="ico-ts" id="zhifubao">
+					<img src="img/支付宝@2x.png" id="zfimg">
+					<p class="p2">支付宝充值  ></p>
+				</div>
+				<div class="ico-ts" id="weixin">
+					<img src="img/微信充值灰色@2x.png" id="wximg">
+					<p class="p2">微信充值  ></p>
+				</div>
+			</div>
+			<div class="sum">
+				<div class="taa" id="zfbta1">
+					<div class="tss">
+						<p class="p3">600钻石</p>
+						<p class="p3">￥ 6.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">2000钻石</p>
+						<p class="p3">￥ 20.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">5000钻石</p>
+						<p class="p3">￥ 50.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">9800钻石</p>
+						<p class="p3">￥ 98.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">19800钻石</p>
+						<p class="p3">￥ 198.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">58800钻石</p>
+						<p class="p3">￥ 588.00</p>
+					</div>
+				</div>
+				
+				<div class="taa" id="wxta2">
+					<div class="tss">
+						<p class="p3">600钻石</p>
+						<p class="p3">￥ 6.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">2000钻石</p>
+						<p class="p3">￥ 20.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">5000钻石</p>
+						<p class="p3">￥ 50.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">9800钻石</p>
+						<p class="p3">￥ 98.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">19800钻石</p>
+						<p class="p3">￥ 198.00</p>
+					</div>
+					<div class="tss">
+						<p class="p3">58800钻石</p>
+						<p class="p3">￥ 588.00</p>
+					</div>
+				</div>
+
+			</div>
+
+
+			<div class="help">
+				<p class="p4">* 充值遇到问题，请以以下方式联系客服</p>
+				<p class="p4">* 客服电话： 18210188001</p>
+				<p class="p4">* 客服QQ： 2275499600</p>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript">
+
+var zhifubao = document.getElementById('zhifubao');
+var weixin = document.getElementById('weixin');
+var zfimg = document.getElementById('zfimg');
+var wximg = document.getElementById('wximg');
+var zfbta1 = document.getElementById('zfbta1');
+var wxta2 = document.getElementById('wxta2');
+
+zhifubao.onclick = function () {
+	zfimg.src = 'img/支付宝@2x.png';
+	wximg.src = 'img/微信充值灰色@2x.png';
+	zfbta1.style.display = 'block';
+	wxta2.style.display = 'none';
+
+}
+
+weixin.onclick = function () {
+	zfimg.src = 'img/支付宝充值灰色@2x.png';
+	wximg.src = 'img/微信充值@2x.png';
+	zfbta1.style.display = 'none';
+	wxta2.style.display = 'block';
+
+}
+
+</script>
+
+
+
+</body>
+</html>
